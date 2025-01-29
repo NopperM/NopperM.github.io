@@ -33,4 +33,26 @@ Um dieses Projekt lokal auszuführen, folgen Sie bitte diesen Schritten:
    git clone https://github.com/NopperM/NopperM.github.io
 
 2. Öffnen Sie die index.html Datei in Ihrem Webbrowser.
+
+# Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert.
+
+## Erlaubnisse
+
+- Jeder darf den Code verwenden, kopieren, ändern und weiterverbreiten, solange die Originalautoren genannt werden.
+
+## Einschränkungen
+
+- Der Code wird ohne jegliche Garantie zur Verfügung gestellt. Es wird keine Haftung für etwaige Schäden übernommen.
+
+## Lizenzbedingungen
+
+- Es darf keine Verwendung des Projekts für illegale oder schädliche Zwecke erfolgen.
+- Alle Änderungen am Projekt sollten klar dokumentiert werden.
+
+---
+
+MIT Lizenz  
+Copyright (c) [Jahr] [Dein Name]
    

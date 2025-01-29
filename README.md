@@ -54,5 +54,5 @@ Dieses Projekt ist unter der MIT-Lizenz lizenziert.
 ---
 
 MIT Lizenz  
-Copyright (c) [Jahr] [Dein Name]
+Copyright (c) [2025] [Nopphakorn Laowichai]
    

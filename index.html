@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+     
 <div class="main-content">
     <div class="concept concept-one">
       <div class="hover hover-1"></div>
@@ -98,7 +98,8 @@
       </h1>
     </div>
   </div>
-  <footer><a href="https://twitter.com/meowlivia_" target="_blank"><i class="icon-social-twitter icons"></i></a><a href="https://github.com/oliviale" target="_blank"><i class="icon-social-github icons"></i></a><a href="https://dribbble.com/oliviale" target="_blank"><i class="icon-social-dribbble icons"></i></a></footer>
+  <footer></footer>
+<script src="js/index.js"></script>
 </body>
 <style>
     body {
@@ -338,162 +339,41 @@ h1 {
   position: relative;
   display: inline-block;
   top: 0;
-  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: 0.5s ease;
+}
+.concept-five .char:nth-child(odd) {
+  font-weight: 600;
 }
 
 .concept-six {
+  background: url(https://cdn.sanity.io/images/e4vlsgz7/wallpaper-production/c28144c4fdd27d47c84fb9147ce012d3efc6358a-3000x1688.jpg) center center/cover;
   display: flex;
   align-items: center;
-  background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/beach.jpg) top right/cover;
 }
-.concept-six .word {
-  width: 550px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80%;
-}
-.concept-six .word:hover .char:nth-child(1) {
-  margin-top: -30px;
-  transform: rotate(-20deg);
-}
-.concept-six .word:hover .char:nth-child(2) {
-  margin: -40px 0px 0 10px;
-  transform: rotate(5deg);
-}
-.concept-six .word:hover .char:nth-child(3) {
-  margin: 15px 0 0 10px;
-  transform: rotate(12deg);
-}
-.concept-six .word:hover .char:nth-child(4) {
-  margin: -25px 0 0;
-  transform: rotate(5deg);
-}
-.concept-six .word:hover .char:nth-child(5) {
-  margin: -40px 5px 0;
-  transform: rotate(-10deg);
-}
-.concept-six .char {
-  flex: 1;
-  transition: 0.3s ease-in-out;
-  position: relative;
+.concept-six h1 {
+  text-align: center;
+  font-size: 5em;
 }
 
 .concept-seven {
-  background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/fries.jpg) top center/cover;
+  background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/fries.jpg) center center/cover;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-.concept-seven h1 {
-  letter-spacing: 35px;
-  position: relative;
-}
-.concept-seven h1:before {
-  content: "fries";
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  max-width: 400px;
-  color: transparent;
-  letter-spacing: 10px;
-  text-shadow: none;
-}
-.concept-seven:hover h1:before {
-  transition: 0.6s ease;
-  color: rgba(255, 255, 255, 0.8);
-  animation: jump-out 0.6s ease forwards;
+  justify-content: center;
+  font-size: 5em;
 }
 
-@keyframes jump-out {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  20% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: scale(2);
-  }
-}
 .concept-eight {
   background: url(https://meowlivia.s3.us-east-2.amazonaws.com/codepen/background/falls.jpg) center center/cover;
   display: flex;
-  align-items: center;
   justify-content: center;
-}
-.concept-eight .word {
-  display: flex;
   align-items: center;
-  justify-items: center;
-  width: 450px;
-  height: 80%;
+  height: 100vh;
+  text-align: center;
 }
-.concept-eight .word:hover .char:before {
-  transition: 0.6s ease;
-  color: rgba(255, 255, 255, 0.8);
-  animation: falls 1s ease forwards;
-}
-.concept-eight .word:hover .char:nth-child(1):before {
-  animation: falls 0.9s ease 0.2s forwards;
-}
-.concept-eight .word:hover .char:nth-child(2n+3):before {
-  animation: falls 1s ease 0.3s forwards;
-}
-.concept-eight .char {
-  flex: 1;
-  position: relative;
-}
-.concept-eight .char:before {
-  content: attr(data-content);
-  position: absolute;
-  top: 0;
-  color: transparent;
-  text-shadow: none;
-}
-
-@keyframes falls {
-  0% {
-    opacity: 0;
-    top: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    top: 100px;
-  }
+.concept-eight h1 {
+  letter-spacing: 15px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 </style>
-<script> 
-$(document).ready(scrollDown());
-
-function scrollUp() {
-  console.log("up");
-  $('body,html').animate({
-    scrollTop: 0
-  }, 3000, "linear", function() {
-    scrollDown();
-    return false;
-  });
-  return false;
-}
-
-function scrollDown() {
-  console.log("down");
-  $('body,html').animate({
-    scrollTop: $(document).height()
-  }, 5782, "linear", function() {
-    scrollUp();
-    return false;
-  });
-
-}
-
-</script>
 </html>

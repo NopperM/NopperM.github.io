@@ -22,7 +22,7 @@ Das Ziel dieses Projekts war es, eine interaktive Benutzererfahrung zu schaffen,
 - **HTML**: Struktur der Webseite
 - **CSS**: Gestaltung und Animationen
 - **JavaScript**: Interaktive Elemente und Scroll-Effekte
-- **Scroll-Snap**: Für eine fließende Benutzererfahrung und perfektes Scrollen zwischen den Szenen
+- **Scroll-Snap**: Für eine fliessende Benutzererfahrung und perfektes Scrollen zwischen den Szenen
 
 ## Installation
 

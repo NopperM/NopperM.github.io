@@ -11,7 +11,7 @@ Das Ziel dieses Projekts war es, eine innovative und ansprechende Benutzererfahr
 - **Visuelle Erlebnisse:** Jede "Szene" oder "Konzept" bietet ein einzigartiges visuelles Erlebnis, das den Benutzer an verschiedene Orte führt, von Wüsten über Wälder bis hin zu Gebirgen und Ozeanen.
 - **Scroll-basierte Interaktivität:** Mit einem sanften Scroll-Effekt werden die Inhalte auf der Seite interaktiv präsentiert. Der Benutzer wird durch die verschiedenen Szenen geführt.
 - **Parfümwerbung:** Am Ende der Reise wird die Parfümwerbung angezeigt, die das Ganze zu einem emotionalen Erlebnis rund um Duft und Atmosphäre macht.
-- **Responsive Design:** Die Seite ist so gestaltet, dass sie auf verschiedenen Geräten und Bildschirmgrößen gut aussieht und funktioniert.
+- **Responsive Design:** Die Seite ist so gestaltet, dass sie auf verschiedenen Geräten und Bildschirmgrössen gut aussieht und funktioniert.
 
 ## Ziel
 

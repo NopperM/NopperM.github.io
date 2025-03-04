@@ -3,6 +3,7 @@ let isPaused = false;  // Whether we are in the paused state
 let pauseTime = 3000;  // Pause for 3 seconds at top/bottom
 let lastScrollTime = Date.now();  // Track the pause duration
 let isUserScrolling = false;  // Flag to detect manual scroll
+let scrollTimeout;  // Define scrollTimeout
 
 // Detect if the user is manually scrolling the page
 window.addEventListener('scroll', function() {
@@ -10,6 +11,7 @@ window.addEventListener('scroll', function() {
   clearTimeout(scrollTimeout);  // Stop auto-scrolling if user is scrolling
   scrollTimeout = setTimeout(() => {
     isUserScrolling = false;  // After a delay, stop detecting user scroll
+    requestAnimationFrame(scrollPage);  // Resume auto-scrolling
   }, 100);
 });
 
@@ -43,5 +45,4 @@ function scrollPage() {
 }
 
 // Start the auto-scrolling
-let scrollTimeout;
 requestAnimationFrame(scrollPage);

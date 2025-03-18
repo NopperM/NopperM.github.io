@@ -102,10 +102,19 @@
 <script src="js/index.js"></script>
 </body>
 <style>
+  @keyframes kenBurns {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
     body {
   background: #fff;
   font-family: "Comfortaa", sans-serif;
   position: relative;
+  overflow-y: hidden;
 }
 
 footer {
@@ -147,6 +156,7 @@ footer a .icons {
   position: relative;
   height: 100vh;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .hover,
@@ -168,6 +178,9 @@ h1 {
   height: 100vh;
   overflow: hidden;
   scroll-snap-align: center;
+  background-size: cover;
+  background-position: center;
+  animation: kenBurns 5s infinite alternate ease-in-out;
 }
 .concept:before {
   content: "";

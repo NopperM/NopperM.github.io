@@ -46,3 +46,13 @@ function scrollPage() {
 
 // Start the auto-scrolling
 requestAnimationFrame(scrollPage);
+
+document.getElementById('main-content').addEventListener('scroll', function() {
+  const sidebar = this;
+  // Check if scrolled to the bottom of the sidebar
+  if (sidebar.scrollTop + sidebar.clientHeight >= sidebar.scrollHeight - 10) { // -10 for a small threshold
+    setTimeout(function() {
+      window.location.href = 'https://example.com/new-page.html'; // Replace with your URL
+    }, 1000); // Redirect after 1 second (adjust as needed)
+  }
+});

@@ -32,7 +32,7 @@ Um dieses Projekt lokal auszuführen, folgen Sie bitte diesen Schritten:
    ```bash
    git clone https://github.com/NopperM/NopperM.github.io
 
-2. Öffnen Sie die index.html Datei in Ihrem Webbrowser.
+2. Öffnen Sie die entrance.html Datei in Ihrem Webbrowser.
 
 # Lizenz
 
